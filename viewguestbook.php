@@ -32,7 +32,7 @@
     <?php
     // Connect to server and select database.
     include("config.php");
-//อย่าลืมเรื่องชื่อต้องตรงกัน
+
     $sql = "SELECT * FROM myhotel";
     $objQuery = mysqli_query($objCon, $sql);
     ?>
