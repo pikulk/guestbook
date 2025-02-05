@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,13 +27,13 @@
 </style>
 </head>
 <body>
-<h3>Comment from guests2 </h3> 
+<h3>Comment from guests </h3> 
 <table>
     <?php
     // Connect to server and select database.
     include("config.php");
-
-    $sql = "SELECT * FROM guestbook";
+//อย่าลืมเรื่องชื่อต้องตรงกัน
+    $sql = "SELECT * FROM myhotel";
     $objQuery = mysqli_query($objCon, $sql);
     ?>
 
