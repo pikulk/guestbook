@@ -33,7 +33,7 @@
     // Connect to server and select database.
     include("config.php");
 
-    $sql = "SELECT * FROM myhotel";
+    $sql = "SELECT * FROM guestbook";
     $objQuery = mysqli_query($objCon, $sql);
     ?>
 
