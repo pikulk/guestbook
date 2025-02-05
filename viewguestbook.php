@@ -28,7 +28,7 @@
 </style>
 </head>
 <body>
-<h3>Comment from guests </h3> 
+<h3>Comment from guests2 </h3> 
 <table>
     <?php
     // Connect to server and select database.
